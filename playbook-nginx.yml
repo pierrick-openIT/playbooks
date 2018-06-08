@@ -1,0 +1,10 @@
+1 tasks:
+      2   - name: Add epel-release repo
+      3     yum:
+      4       name: epel-release
+      5       state: present
+      6
+      7   - name: Install nginx
+      8     yum:
+      9       name: nginx
+     10       state: present
