@@ -1,6 +1,6 @@
 ---
 - name: Install nginx
-  hosts: host.name
+  hosts: hidora-poc
   become: true
 
   tasks:
